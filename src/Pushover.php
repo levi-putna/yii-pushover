@@ -12,6 +12,13 @@ use Sly\PushOver\Model\Push;
 use Sly\PushOver\PushManager;
 use yii\base\Component;
 
+/**
+ * Class Pushover
+ *
+ * A component used to send notifications to Pushover
+ *
+ * @package consynki\yii\pushover
+ */
 class Pushover extends Component
 {
 
