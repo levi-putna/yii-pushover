@@ -1,0 +1,26 @@
+{
+  "name": "consynki/yii-pushover",
+  "version": "0.0.1",
+  "description": "A Yii2 PushOver log target and pushover messaging component",
+  "type": "yii2-extension",
+  "keywords": ["log", "pushover", "yii2"],
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Levi Putna",
+      "email": "levi.putna@consynki.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "sly/pushover": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "consynki\\yii\\pushover\\": "src/"
+    }
+  }
+}
