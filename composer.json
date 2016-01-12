@@ -4,7 +4,7 @@
   "description": "A Yii2 PushOver log target and pushover messaging component",
   "type": "yii2-extension",
   "keywords": ["log", "pushover", "yii2"],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
