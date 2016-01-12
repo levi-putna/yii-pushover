@@ -13,7 +13,6 @@ Or add `"consynki/yii2-pushover": "*"` to your composer.json file and run compos
 In config file:
 
 ```php
-
 'components' => [
     'pushover' => [
         'class' => 'consynki\yii\pushover\Pushover',
@@ -31,6 +30,7 @@ In config file:
         ],
     ],
 ]
+```
 
 You only need to confider the log target if you wish to send messages to pushover via the logging system. If you wish you
 can manual send messages directly via the component.
