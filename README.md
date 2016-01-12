@@ -13,7 +13,7 @@ Or add `"consynki/yii2-pushover": "*"` to your composer.json file and run compos
 In config file:
 
 ```php
-'bootstrap' => ['log', 'raven'],
+
 'components' => [
     'pushover' => [
         'class' => 'consynki\yii\pushover\Pushover',
