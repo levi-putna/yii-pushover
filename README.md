@@ -35,6 +35,8 @@ In config file:
 You only need to confider the log target if you wish to send messages to pushover via the logging system. If you wish you
 can manual send messages directly via the component.
 
+The log trace will support any additional standard [Yii2 log target](http://www.yiiframework.com/doc-2.0/yii-log-target.html) params.
+
 It is recommended to limit the number of messages that are sent via pushover to critical issues. The best option is to only send errors,
 in addition you can ignore particular common error types events 404
 
