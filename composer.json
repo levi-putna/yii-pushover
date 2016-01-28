@@ -1,6 +1,6 @@
 {
   "name": "consynki/yii2-pushover",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Yii2 PushOver log target and pushover messaging component",
   "type": "yii2-extension",
   "keywords": ["log", "pushover", "yii2"],
