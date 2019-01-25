@@ -15,7 +15,7 @@
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": "*",
-    "sly/pushover": "*"
+    "coderovich/pushover": "*"
   },
   "autoload": {
     "psr-4": {
